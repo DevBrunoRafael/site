@@ -394,6 +394,9 @@ footer>.localizacao>.localizacao2{
 
 }
 @media(Max-width:522px){
+     body{
+     background-color: white;
+}
     .imagem{
         width: 105.6%;
         height: 14em;
