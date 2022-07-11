@@ -394,9 +394,15 @@ footer>.localizacao>.localizacao2{
 
 }
 @media(Max-width:522px){
+<<<<<<< HEAD
     body{
         background-color: white;
     }
+=======
+     body{
+     background-color: white;
+}
+>>>>>>> 23a4f2cc796f65e393bd54ee25d4d41dd7369db9
     .imagem{
         width: 105.6%;
         height: 14em;
@@ -770,9 +776,6 @@ footer>.localizacao>.localizacao2{
     }     
 }
 @media(Max-width:320px){
-    body{
-        background-color: white;
-    }
     .imagem{
         width: 115.5%;
       }
