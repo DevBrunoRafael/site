@@ -394,6 +394,9 @@ footer>.localizacao>.localizacao2{
 
 }
 @media(Max-width:522px){
+    body{
+        background-color: white;
+    }
     .imagem{
         width: 105.6%;
         height: 14em;
@@ -455,6 +458,9 @@ footer>.localizacao>.localizacao2{
         margin-left: -3em;
         margin-top: -5em;
     }
+    .manu{
+        display: none;
+      }
    
 }
 @media(Max-width:496px){
@@ -472,6 +478,9 @@ footer>.localizacao>.localizacao2{
     .localizacao>a{
         font-size: 1em;
     }
+    .manu{
+        display: none;
+      }
    
 
 }
@@ -506,14 +515,17 @@ footer>.localizacao>.localizacao2{
         position: absolute;
         margin: -3em 1em 1em 5em;
     }
+    .manu{
+        display: none;
+      }
 }
 
 @media(Max-width:440px){
     header{
-        margin: -1em -0.9em -1em -1em;
+        margin: -1em -0.99em -1em -1em;
     }
     nav{
-        margin: -3em -0.9em -1em -1em;
+        margin: -3em -0.99em -1em -1em;
         padding: 1.5em;
     }
     .imagem{
@@ -538,18 +550,43 @@ footer>.localizacao>.localizacao2{
         position: absolute;
         margin: -3em 1em 1em 5em;
     }
+    .manu{
+        display: none;
+      }
+}
+
+@media(Max-width:435px){
+    header{
+        margin: -1em -1.13em -1em -1em;
+    }
+    nav{
+        margin: -3em -1.13em -1em -1em;
+        padding: 1.5em;
+    }
+    .imagem{
+        width: 110.2%;
+        height: 14em;
+        background-image: url(imagem/A\ tecnologia\ entre\ nós3.jpg);
+    }
+    aside>footer{
+        width: 107.76%;
+    }
+    .manu{
+        display: none;
+      }
+
 }
 
 
 
 
 
-@media(Max-width:426px){
+@media(Max-width:427px){
     header{
-        margin: -1em -1.4em -1em -1em;
+        margin: -1em -1.43em -1em -1em;
     }
     nav{
-        margin: -3em -1.4em -1em -1em;
+        margin: -3em -1.43em -1em -1em;
         padding: 1.5em;
     }
      .imagem{
@@ -615,48 +652,69 @@ footer>.localizacao>.localizacao2{
         margin-top: 0.5em;
         width: 109.5%;
     }
+    .manu{
+        display: none;
+      }
+}
+@media(Max-width:400px){
+    .imagem{
+        width: 112.8%;
+    }
+    aside>footer{
+        margin-top: 0.5em;
+        width: 110.1%;
+    }
+    .manu{
+        display: none;
+      }
 }
 @media(Max-width:390px){
      .imagem{
-        width: 112.5%;
+        width: 112.8%;
     }
+    .manu{
+        display: none;
+      }
 
 }   
 @media(Max-width:375px){
     header{
-        margin: -1em -1em -1em -1em;
+        margin: -1em -1.1em -1em -1em;
     }
     nav{
-        margin: -3em -1em -1em -1em;
+        margin: -3em -1.1em -1em -1em;
     }
-.email1{
-    display: none;
-    display: none;
-}
-.imagem{
-    width: 111.1%;
-}  
-.localizacao>a{
-    font-size: 1.2em;
-} 
-.whatsapp>a>img{
-    width: 20%;
-    height: 18%;
-    margin-left: -2.5em;
-    margin-top: -3em;
-} 
-.logomarca>a>img{
-    width: 35%;
-}
-aside>footer{
-width: 108.5%;
-}
-footer>.localizacao {
-    width: 30%;
-    height: 12%;
-    position: absolute;
-    margin: -5.8em 0em 0em 9em;
-}
+    .email1{
+      display: none;
+    }
+    .imagem{
+      width: 111.3%;
+    }  
+    .localizacao>a{
+      font-size: 1.2em;
+    } 
+    .whatsapp>a>img{
+        width: 20%;
+        height: 18%;
+        margin-left: -2.5em;
+        margin-top: -3em;
+    } 
+    .logomarca>a>img{
+        width: 35%;
+    }
+    aside>footer{
+    width: 108.5%;
+    }
+    footer>.localizacao {
+        width: 30%;
+        height: 12%;
+        position: absolute;
+        margin: -5.8em 0em 0em 9em;
+    }
+    .manu{
+        display: none;
+    }
+}    
 @media(Max-width:355px){
     header{
         margin: -1em -1.49em -1em -1em;
@@ -669,10 +727,14 @@ footer>.localizacao {
     }  
     aside>footer{
         width: 111.7%;
-        }
-}
+    }
+    .manu{
+        display: none;
+      }
 
 }
+
+
 @media(Max-width:340px){
      header{
         margin: -1em -1.4em -1em -1em;
@@ -705,9 +767,15 @@ footer>.localizacao {
     } 
     .logomarca>a>img{
         width: 40%;
+    }     
+}
+@media(Max-width:320px){
+    .imagem{
+        width: 115.5%;
+      }
+      aside>footer{
+        width: 112.5%;
     }
-  
-      
 }
 
 
