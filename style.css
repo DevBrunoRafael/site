@@ -398,11 +398,8 @@ footer>.localizacao>.localizacao2{
     body{
         background-color: white;
     }
-=======
-     body{
-     background-color: white;
-}
->>>>>>> 23a4f2cc796f65e393bd54ee25d4d41dd7369db9
+
+
     .imagem{
         width: 105.6%;
         height: 14em;
@@ -470,6 +467,9 @@ footer>.localizacao>.localizacao2{
    
 }
 @media(Max-width:496px){
+     body{
+       background -color: white;
+     }
     .imagem{
         width: 105.8%;
         height: 14em;
@@ -491,6 +491,9 @@ footer>.localizacao>.localizacao2{
 
 }
 @media(Max-width:460px){
+    body{
+       background -color: white;
+     }
     header{
         margin: -1em -0.4em -1em -1em;
     }
@@ -527,6 +530,9 @@ footer>.localizacao>.localizacao2{
 }
 
 @media(Max-width:440px){
+    body{
+       background -color: white;
+     }
     header{
         margin: -1em -0.99em -1em -1em;
     }
@@ -562,6 +568,9 @@ footer>.localizacao>.localizacao2{
 }
 
 @media(Max-width:435px){
+    body{
+       background -color: white;
+     }
     header{
         margin: -1em -1.13em -1em -1em;
     }
@@ -588,6 +597,9 @@ footer>.localizacao>.localizacao2{
 
 
 @media(Max-width:427px){
+     body{
+       background -color: white;
+     }
     header{
         margin: -1em -1.43em -1em -1em;
     }
@@ -663,6 +675,9 @@ footer>.localizacao>.localizacao2{
       }
 }
 @media(Max-width:400px){
+     body{
+       background -color: white;
+     }
     .imagem{
         width: 112.8%;
     }
@@ -675,6 +690,9 @@ footer>.localizacao>.localizacao2{
       }
 }
 @media(Max-width:390px){
+      body{
+       background -color: white;
+     }
      .imagem{
         width: 112.8%;
     }
@@ -684,6 +702,9 @@ footer>.localizacao>.localizacao2{
 
 }   
 @media(Max-width:375px){
+    body{
+       background -color: white;
+     }
     header{
         margin: -1em -1.1em -1em -1em;
     }
@@ -722,6 +743,9 @@ footer>.localizacao>.localizacao2{
     }
 }    
 @media(Max-width:355px){
+    body{
+       background -color: white;
+     }
     header{
         margin: -1em -1.49em -1em -1em;
     }
@@ -742,6 +766,9 @@ footer>.localizacao>.localizacao2{
 
 
 @media(Max-width:340px){
+     body{
+       background -color: white;
+     }
      header{
         margin: -1em -1.4em -1em -1em;
     }
@@ -776,6 +803,9 @@ footer>.localizacao>.localizacao2{
     }     
 }
 @media(Max-width:320px){
+     body{
+       background -color: white;
+     }
     .imagem{
         width: 115.5%;
       }
