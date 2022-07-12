@@ -1,1 +1,813 @@
 
+@charset "utf-8";
+header{
+    background-color: #229274;
+    margin: -8px -8px 0px -8px ;
+    padding: 10px;
+}
+header>h1{
+    color: white;
+    text-align: center;
+}
+nav{
+    background-color: #229274;
+    margin: -8px -8px 0px -8px;
+    padding: 10px;
+}
+nav>a{
+    color: white;
+    margin-left: 10px;
+    padding-right: 18px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav>a:hover{
+    background-color: #165a48;
+}
+.imagem{
+    width: 68em;
+    margin-left: -1em;
+    height: 35em;
+    background-image: url(imagem/A\ tecnologia\ entre\ nós1.jpg);
+}
+body{
+    text-align: justify;
+    font-size: 20px;
+    background-color: #e7e4e4;
+}
+main{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 1% 1% 1% 1%;
+    padding: 1.1em;
+}
+main>.texto{
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff;
+}
+main>.imagens{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    margin: -77.2em 0em 0em 37em;
+}
+main>.imagens>img{
+    width: 100%;
+    height: 70%;
+}
+.imagens2{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    margin: -40.5em 0em 0em 37em;
+    
+}
+.imagens{
+    display: fixed;
+}
+.imagens2>img{
+    width: 100%;
+    height: 80%;
+}
+.imagemmeio{
+    width: 25em;
+    margin: 1em 1em 1em 10em;
+    border-radius: 1em 1em 1em 1em;
+    border-radius: 2px 2px 3px 2px black;
+}
+.imagemfim{
+    width: 25em;
+    margin: 1em 1em 1em 10em;
+    border-radius: 1em 1em 1em 1em;
+    border-radius: 2px 2px 3px 2px black;
+}
+.whatsapp>img{
+    width: 100%;
+    height: 100%;
+   
+}
+.whatsapp>a>img{
+    width: 15%;
+    height: 30%;
+    margin-left: -3.5em;
+    margin-top: -20em;
+}
+.sobrenos{
+    width: 40%;
+    margin-left: 5%;
+    padding: 1em;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #cccbcb;
+    box-shadow: -1px 1px 2px 1px rgba(0, 0, 0, 0.171);;
+}
+.sobrenos1{
+    padding: 0.5em;
+    background-color: #e7e4e4;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: -9px 9px 8px 5px #00000086
+    
+}
+.equipe>img{
+        position: absolute;
+        margin: -18em 1em 1em 34em;
+}
+aside>footer{
+    background-color: #229274;
+    width: 100%;
+    margin: 0em 0.0em 0.4em 0.2em;
+}
+.logomarca>a>img{
+    width: 200px;
+}
+footer>.localizacao {
+    width: 30%;
+    height: 12%;
+    position: absolute;
+    margin: -7.2em 0em 0em 23em;
+}
+footer>.localizacao>a {
+    color: black;
+    text-decoration: none;
+}
+footer>.localizacao>.localizacao2{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    margin: -3em 1em 1em 8em;
+}
+.contato {
+    position: absolute;
+    margin: -8.2em 1em 1em 53em;
+}
+.contato>.email {
+    position: absolute;
+    margin: -.9em 0em 0em 1em;
+}
+.contato>.email>a>img {
+    width: 50px;
+}
+.contato>.instagram {
+    position: absolute;
+    margin: -0.8em 0em 0em 3.5em;
+}
+.contato>.instagram>a>img {
+    width: 55.5px;
+}
+.contato>.whatsappsemcor {
+    position: absolute;
+    margin: -1.2em 0em 0em 6em;
+}
+.contato>.whatsappsemcor>a>img {
+    width: 59.5px;
+}
+@media(Max-width:1440px){
+    .imagem{
+        width: 68em;    
+        height: 35em;
+        background-image: url(imagem/A\ tecnologia\ entre\ nós1.jpg);
+    }
+      
+}
+@media(Max-width:1024px){
+    .imagem{
+        width: 51.8em;
+        height: 30em;
+        background-image: url(imagem/A\ tecnologia\ entre\ nós5.jpg);
+    }
+    main>.imagens{
+        width: 40%;
+        height: 70%;
+        position: absolute;
+        margin: -85.2em 0em 0em 25em;
+    }
+    main>.imagens>img{
+        width: 100%;
+        height: 80%;
+    }
+    .imagens2{
+        width: 42%;
+        height: 60%;
+        position: absolute;
+        margin: -42.5em 0em 0em 25em;
+        
+    }
+    .imagens2>img{
+        width: 100%;
+        height: 80%;
+    }
+    .imagemmeio{
+        width: 25em;
+        margin-right: 50%;
+        border-radius: 1em 1em 1em 1em;
+        border-radius: 2px 2px 3px 2px black;
+    }
+    .imagemfim{
+        width: 25em;
+        margin-right: 50%;
+        border-radius: 1em 1em 1em 1em;
+        border-radius: 2px 2px 3px 2px black;
+    }
+    .equipe>img{
+        width: 23em;
+        position: absolute;
+        margin: -18em 1em 1em 22em;
+    }
+    
+    footer>.localizacao {
+        width: 30%;
+        height: 12%;
+        position: absolute;
+        margin: -7.2em 0em 0em 15em;
+    }
+   
+    .contato {
+        position: absolute;
+        margin: -8.2em 1em 1em 38em;
+    }
+   
+    
+}
+@media(Max-width:768px){
+    nav{
+        margin: -8px -8px 0px -8px;
+        padding: 10px;
+    }
+    nav>a{
+        margin-left: 0px;
+        padding: 2px;
+        border-radius: 5px;
+    }
+    .imagem{
+        width: 39em;
+        
+        height: 20em;
+        background-image: url(imagem/A\ tecnologia\ entre\ nós2.jpg);
+    }
+    main>.imagens{
+        width: 40%;
+        height: 60%;
+        position: absolute;
+        margin: -98.2em 0em 0em 19em;
+    }
+    main>.imagens>img{
+        width: 100%;
+        height: 80%;
+    }
+    .imagens2{
+        width: 42%;
+        height: 60%;
+        position: absolute;
+        margin: -48.5em 0em 0em 18em;
+        
+    }
+    .imagens2>img{
+        width: 100%;
+        height: 80%;
+    }
+    .imagemmeio{
+        width: 25em;
+        margin:1em 1em 1em 0em ;
+        border-radius: 1em 1em 1em 1em;
+        border-radius: 2px 2px 3px 2px black;
+    }
+    .imagemfim{
+        width: 25em;
+        margin:1em 1em 1em 0em ;
+        border-radius: 1em 1em 1em 1em;
+        border-radius: 2px 2px 3px 2px black;
+    }
+    .equipe>img{
+        display: none;
+    }   
+    .sobrenos{
+        width: 80%;
+    } 
+    footer>.localizacao {
+        width: 30%;
+        height: 12%;
+        position: absolute;
+        margin: -7.2em 0em 0em 12em;
+    }
+   
+    .contato {
+        position: absolute;
+        margin: -8.2em 1em 1em 27em;
+    }
+    
+}
+    
+@media(Max-width:665px){
+    nav>a{
+        margin-left: 0px;
+        padding: 2px;
+        border-radius: 5px;
+        font-size: 0.85em;
+    }
+    .cuidados{
+        display: none;
+    }
+    .imagem{
+        width: 33.87em;
+        
+        height: 20em;
+        background-image: url(imagem/A\ tecnologia\ entre\ nós2.jpg);
+    }
+    main>.imagens{
+        width: 40%;
+        height: 60%;
+        position: absolute;
+        margin: -88.2em 0em 0em 15em;
+    }
+    main>.imagens>img{
+        width: 100%;
+        height: 80%;
+    }
+    .imagens2{
+        width: 42%;
+        height: 60%;
+        position: absolute;
+        margin: -45.5em 0em 0em 15em;
+        
+    }
+    .imagens2>img{
+        width: 100%;
+        height: 80%;
+    }
+    .imagemmeio{
+        width: 20em;
+        margin:1em 1em 1em 0em ;
+        border-radius: 1em 1em 1em 1em;
+        border-radius: 2px 2px 3px 2px black;
+    }
+    .imagemfim{
+        width: 20em;
+        margin:1em 1em 1em 0em ;
+        border-radius: 1em 1em 1em 1em;
+        border-radius: 2px 2px 3px 2px black;
+    }
+    .whatsapp>a>img{
+        width: 25%;
+        height: 30%;
+        margin-left: -1.5em;
+        margin-top: -1em;
+    }
+    .logomarca>a>img{
+        width: 150px;
+    }
+    footer>.localizacao {
+        width: 30%;
+        height: 12%;
+        position: absolute;
+        margin: -5.2em 0em 0em 10em;
+    }
+   
+    .contato {
+        position: absolute;
+        margin: -6em 1em 1em 23.5em;
+    }
+    aside>footer{
+        margin-left:-0.5em ;
+    }
+}
+@media(Max-width:522px){
+    body{
+        background-color: white;
+    }
+   main{
+        width:100%;
+    }
+    .imagem{
+        width: 105.6%;
+        height: 14em;
+        background-image: url(imagem/A\ tecnologia\ entre\ nós3.jpg);
+    }
+    main>.texto{
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+    }
+    main>.imagens{
+        width: 40%;
+        height: 60%;
+        position: fixed;
+        margin: -65.2em 0em 0em 15em;
+        display: none;
+    }
+    main>.imagens>img{
+        width: 100%;
+        height: 80%;
+        display: none;
+    }
+    .imagens2{
+        width: 42%;
+        height: 60%;
+        position: absolute;
+        margin: -35.5em 0em 0em 15em;
+        display: none;
+    }
+    .imagens2>img{
+        width: 100%;
+        height: 80%;
+        display: none;
+    }
+    .logomarca>a>img{
+        width: 40%;
+    }
+    aside>footer{
+        width: 100%;
+        margin-top: -0em;
+    }
+    footer>.localizacao {
+        width: 50%;
+        height: 12%;
+        position: absolute;
+        margin: -25% 0em 0em 12em;
+    }
+   
+    .contato {
+        position: absolute;
+        margin: -6em 1em 1em 23.5em;
+        display: none;
+    }
+    .whatsapp>a>img{
+        position: absolute;
+        width: 25%;
+        height: 30%;
+        margin-left: -3em;
+        margin-top: -5em;
+    }
+    .manu{
+        display: none;
+      }
+   
+}
+@media(Max-width:496px){
+     body{
+       background-color: white;
+     }
+     main{
+        width:100%;
+    }
+    .imagem{
+        width: 105.8%;
+        height: 14em;
+        background-image: url(imagem/A\ tecnologia\ entre\ nós3.jpg);
+    }
+    footer>.localizacao {
+        width: 30%;
+        height: 12%;
+        position: absolute;
+        margin: -6.8em 0em 0em 10.5em;
+    }
+    .localizacao>a{
+        font-size: 1em;
+    }
+    .manu{
+        display: none;
+      }
+   
+}
+@media(Max-width:460px){
+    body{
+       background-color: white;
+     }
+     main{
+        width:100%;
+    }
+    header{
+        margin: -1em -0.4em -1em -1em;
+    }
+    nav{
+        margin: -3em -0.4em -1em -1em;
+        padding: 1.5em;
+    }
+    .imagem{
+        width: 106.2%;
+        height: 14em;
+        background-image: url(imagem/A\ tecnologia\ entre\ nós3.jpg);
+    }
+    aside>footer{
+        width: 104%;
+    }
+    footer>.localizacao {
+        width: 30%;
+        height: 12%;
+        position: absolute;
+        margin: -7.2em 0em 0em 11.5em;
+    }
+    .localizacao>a{
+        font-size: 1em;
+    }
+    footer>.localizacao>.localizacao2 {
+        width: 20%;
+        height: 60%;
+        position: absolute;
+        margin: -3em 1em 1em 5em;
+    }
+    .manu{
+        display: none;
+      }
+}
+@media(Max-width:440px){
+    body{
+       background-color: white;
+     }
+     main{
+        width:100%;
+    }
+    header{
+        margin: -1em -0.99em -1em -1em;
+    }
+    nav{
+        margin: -3em -0.99em -1em -1em;
+        padding: 1.5em;
+    }
+    .imagem{
+        width: 109.2%;
+        height: 14em;
+    }
+    aside>footer{
+        width: 106.8%;
+    }
+    footer>.localizacao {
+        width: 30%;
+        height: 12%;
+        position: absolute;
+        margin: -7.2em 0em 0em 11.5em;
+    }
+    .localizacao>a{
+        font-size: 1em;
+    }
+    footer>.localizacao>.localizacao2 {
+        width: 20%;
+        height: 60%;
+        position: absolute;
+        margin: -3em 1em 1em 5em;
+    }
+    .manu{
+        display: none;
+      }
+}
+@media(Max-width:435px){
+    body{
+       background-color: white;
+     }
+     main{
+        width:100%;
+    }
+    header{
+        margin: -1em -1.13em -1em -1em;
+    }
+    nav{
+        margin: -3em -1.13em -1em -1em;
+        padding: 1.5em;
+    }
+    .imagem{
+        width: 110.2%;
+        height: 14em;
+        background-image: url(imagem/A\ tecnologia\ entre\ nós3.jpg);
+    }
+    aside>footer{
+        width: 107.76%;
+    }
+    .manu{
+        display: none;
+      }
+}
+@media(Max-width:427px){
+     body{
+       background-color: white;
+     }
+     main{
+        width:100%;
+    }
+    header{
+        margin: -1em -1.43em -1em -1em;
+    }
+    nav{
+        margin: -3em -1.43em -1em -1em;
+        padding: 1.5em;
+    }
+     .imagem{
+        width: 112%;
+        height: 14em;
+        background-image: url(imagem/A\ tecnologia\ entre\ nós3.jpg);
+    }
+    main>.imagens{
+        width: 40%;
+        height: 60%;
+        position: fixed;
+        margin: -65.2em 0em 0em 15em;
+        display: none;
+    }
+    main>.imagens>img{
+        width: 100%;
+        height: 80%;
+        display: none;
+    }
+    .imagens2{
+        width: 42%;
+        height: 60%;
+        position: absolute;
+        margin: -35.5em 0em 0em 15em;
+        display: none;
+    }
+    .imagens2>img{
+        width: 100%;
+        height: 80%;
+        display: none;
+    }
+    .imagemmeio{
+        width: 100%;
+    }
+    .imagemfim{
+        width: 100%;
+    }
+    .sobrenos{
+        width: 100%;
+        margin-left: -1em;   
+    }
+    footer>.localizacao {
+        width: 30%;
+        height: 12%;
+        position: absolute;
+        margin: -7.2em 0em 0em 10.5em;
+    }
+    .localizacao>a{
+        font-size: 1.2em;
+    }
+   
+    .contato {
+        position: absolute;
+        margin: -6em 1em 1em 23.5em;
+    }    
+    .whatsapp>a>img{
+        width: 35%;
+        margin-left: -2.5em;
+        margin-top: -4.7em;
+    }  
+    aside>footer{
+        margin-top: 0.5em;
+        width: 109.5%;
+    }
+    .manu{
+        display: none;
+      }
+}
+@media(Max-width:400px){
+     body{
+       background-color: white;
+     }
+     main{
+        width:100%;
+    }
+    .imagem{
+        width: 112.8%;
+    }
+    aside>footer{
+        margin-top: 0.5em;
+        width: 110.1%;
+    }
+    .manu{
+        display: none;
+      }
+}
+@media(Max-width:390px){
+      body{
+       background-color: white;
+     }
+     main{
+        width:100%;
+    }
+     .imagem{
+        width: 112.8%;
+    }
+    .manu{
+        display: none;
+      }
+}   
+@media(Max-width:375px){
+    body{
+       background-color: white;
+     }
+     main{
+        width:100%;
+    }
+    header{
+        margin: -1em -1.1em -1em -1em;
+    }
+    nav{
+        margin: -3em -1.1em -1em -1em;
+    }
+    .email1{
+      display: none;
+    }
+    .imagem{
+      width: 111.3%;
+    }  
+    .localizacao>a{
+      font-size: 1.2em;
+    } 
+    .whatsapp>a>img{
+        width: 20%;
+        height: 18%;
+        margin-left: -2.5em;
+        margin-top: -3em;
+    } 
+    .logomarca>a>img{
+        width: 35%;
+    }
+    aside>footer{
+    width: 108.5%;
+    }
+    footer>.localizacao {
+        width: 30%;
+        height: 12%;
+        position: absolute;
+        margin: -5.8em 0em 0em 9em;
+    }
+    .manu{
+        display: none;
+    }
+}    
+@media(Max-width:355px){
+    body{
+       background-color: white;
+     }
+     main{
+        width:100%;
+    }
+    header{
+        margin: -1em -1.49em -1em -1em;
+    }
+    nav{
+        margin: -3em -1.49em -1em -1em;
+    }
+    .imagem{
+        width: 114.9%;
+    }  
+    aside>footer{
+        width: 111.7%;
+    }
+    .manu{
+        display: none;
+      }
+}
+@media(Max-width:340px){
+     body{
+       background-color: white;
+     }
+     main{
+        width:100%;
+    }
+     header{
+        margin: -1em -1.4em -1em -1em;
+    }
+    nav{
+        margin: -1em -1.4em -1em -1em;
+    }
+      .manu{
+        display: none; 
+      }
+       
+      .imagem{
+        width: 114.7%;
+      }
+      .sobrenos{
+        width: 100%;
+        margin-left: -1em;
+    }
+    footer>.localizacao{
+        margin-top: -7.3em;
+    }
+    .localizacao>.localizacao2>a>img{
+        margin-top: 2em;
+        margin-left: -5em;
+    }
+    .whatsapp>a>img{
+        width: 35%;
+        margin-left: -2.5em;
+        margin-top: -1.7em;
+    } 
+    .logomarca>a>img{
+        width: 40%;
+    }     
+}
+@media(Max-width:320px){
+     body{
+       background-color: white;
+     }
+     main{
+        width:100%;
+    }
+    .imagem{
+        width: 115.5%;
+      }
+      aside>footer{
+        width: 112.5%;
+    }
+}
