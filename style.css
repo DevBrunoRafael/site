@@ -656,25 +656,98 @@ footer>.localizacao>.localizacao2{
         display: none;
       }
 }
-@media(Max-width:400px){
+
+@media(Max-width:414px){
+
+    header{
+        margin: -1em -1.53em -1em -1em;
+    }
+    nav{
+        margin: -3em -1.53em -1em -1em;
+        padding: 1.5em;
+    }
+
     .imagem{
-        width: 112.8%;
+        width: 112.7%;
+    }
+    .whatsapp>a>img{
+        width: 20%;
+        height: 18%;
+        margin-left: -2.5em;
+        margin-top: -3em;
+    } 
+    aside>footer{
+        margin-top: 0.5em;
+        width: 110.2%;
+        margin-bottom: -10%;
+    }
+
+}
+@media(Max-width:412px){
+
+    .imagem{
+        width: 112.4%;
+    }
+
+    aside>footer{
+        margin-top: 0.5em;
+        width: 109.8%;
+    }
+
+}
+
+@media(Max-width:393px){
+    header{
+        margin: -1em -1.15em -1em -1em;
+    }
+    nav{
+        margin: -3em -1.15em -1em -1em;
+    }
+    .imagem{
+        width: 111.4%;
     }
     aside>footer{
         margin-top: 0.5em;
-        width: 110.1%;
+        width: 108.65%;
+        margin-bottom: -10%;
     }
     .manu{
         display: none;
       }
 }
 @media(Max-width:390px){
+
+    header{
+        margin: -1em -1.23em -1em -1em;
+    }
+    nav{
+        margin: -3em -1.23em -1em -1em;
+    }
+    .imagem{
+        width: 111.9%;
+    }
+    aside>footer{
+        width: 109.5%;
+    }
+
+}
+@media(Max-width:384px){
+    header{
+        margin: -1em -1.78em -1em -1em;
+    }
+    nav{
+        margin: -3em -1.78em -1em -1em;
+    }
      .imagem{
-        width: 112.8%;
+        width: 115.1%;
     }
     .manu{
         display: none;
       }
+      aside>footer{
+        width: 112.5%;
+        margin-bottom: -10%;
+    }
 
 }   
 @media(Max-width:375px){
@@ -688,7 +761,7 @@ footer>.localizacao>.localizacao2{
       display: none;
     }
     .imagem{
-      width: 111.3%;
+      width: 111.6%;
     }  
     .localizacao>a{
       font-size: 1.2em;
@@ -703,7 +776,7 @@ footer>.localizacao>.localizacao2{
         width: 35%;
     }
     aside>footer{
-    width: 108.5%;
+    width: 108.8%;
     }
     footer>.localizacao {
         width: 30%;
@@ -715,7 +788,7 @@ footer>.localizacao>.localizacao2{
         display: none;
     }
 }    
-@media(Max-width:355px){
+@media(Max-width:360px){
     header{
         margin: -1em -1.49em -1em -1em;
     }
@@ -723,7 +796,7 @@ footer>.localizacao>.localizacao2{
         margin: -3em -1.49em -1em -1em;
     }
     .imagem{
-        width: 114.9%;
+        width: 114.4%;
     }  
     aside>footer{
         width: 111.7%;
@@ -734,6 +807,22 @@ footer>.localizacao>.localizacao2{
 
 }
 
+@media(Max-width:353px){
+
+    header{
+        margin: -1em -1.68em -1em -1em;
+    }
+    nav{
+        margin: -3em -1.68em -1em -1em;
+    }
+    .imagem{
+        width: 116%;
+    }  
+    aside>footer{
+        width: 112.73%;
+    }
+    
+}
 
 @media(Max-width:340px){
      header{
@@ -771,11 +860,17 @@ footer>.localizacao>.localizacao2{
 }
 @media(Max-width:320px){
     .imagem{
-        width: 115.5%;
+        width: 115.65%;
       }
       aside>footer{
         width: 112.5%;
+        margin-bottom: -10%;
     }
+    .whatsapp>a>img{
+        width: 35%;
+        margin-left: -2.5em;
+        margin-top: -2.2em;
+    } 
 }
 
 
