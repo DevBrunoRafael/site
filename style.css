@@ -125,11 +125,12 @@ main>.imagens>img{
 }
 aside>footer{
     background-color: #229274;
-    width: 100%;
-    margin: 0em 0.0em 0.4em 0.2em;
+    width: 102%;
+    margin: 0em 0.0em -5em -1em;
 }
 .logomarca>a>img{
     width: 200px;
+    margin-left: 2em;
 }
 footer>.localizacao {
     width: 30%;
@@ -183,9 +184,17 @@ footer>.localizacao>.localizacao2{
     }
       
 }
-@media(Max-width:1024px){
+@media(Max-width:1180px){
+
+    header{
+        margin: -1em -2.5em -1em -1em;
+    }
+    nav{
+        margin: -3em -2.5em -1em -1em;
+        padding: 1.5em;
+    }
     .imagem{
-        width: 51.8em;
+        width: 61.7em;
         height: 30em;
         background-image: url(imagem/A\ tecnologia\ entre\ nós5.jpg);
     }
@@ -194,7 +203,7 @@ footer>.localizacao>.localizacao2{
         width: 40%;
         height: 70%;
         position: absolute;
-        margin: -85.2em 0em 0em 25em;
+        margin: -85.2em 0em 0em 27em;
     }
     main>.imagens>img{
 
@@ -205,12 +214,12 @@ footer>.localizacao>.localizacao2{
         width: 42%;
         height: 60%;
         position: absolute;
-        margin: -42.5em 0em 0em 25em;
+        margin: -42.5em 0em 0em 33em;
         
     }
     .imagens2>img{
-        width: 100%;
-        height: 80%;
+        width: 80%;
+        height: 60%;
     }
     .imagemmeio{
         width: 25em;
@@ -224,10 +233,11 @@ footer>.localizacao>.localizacao2{
         border-radius: 1em 1em 1em 1em;
         border-radius: 2px 2px 3px 2px black;
     }
+    
     .equipe>img{
-        width: 23em;
+        width: 40%;
         position: absolute;
-        margin: -18em 1em 1em 22em;
+        margin: -18em 1em 1em 26em;
     }
     
     footer>.localizacao {
@@ -241,14 +251,273 @@ footer>.localizacao>.localizacao2{
         position: absolute;
         margin: -8.2em 1em 1em 38em;
     }
+    aside>footer{
+        width: 106%;
+    }
    
     
 }
 
-@media(Max-width:768px){
+@media(Max-width:915px){
+
+    header{
+        margin: -1em -3.2em -1em -1em;
+    }
     nav{
-        margin: -8px -8px 0px -8px;
-        padding: 10px;
+        margin: -3em -3.2em -1em -1em;
+        padding: 1.5em;
+    }
+
+  
+
+    .imagem{
+        width: 109.3%;
+    }
+    main>.imagens{
+
+        width: 40%;
+        height: 90%;
+        margin: -90.2em 0em 0em 20em;
+    }
+    .imagens2{
+        width: 40%;
+        height: 60%;
+        margin: -42.5em 0em 0em 20em;
+        
+    }
+
+    .equipe>img{
+        width: 40%;
+    }
+
+    .contato {
+        margin: -8.2em 1em 1em 32em;
+    }
+    aside>footer{
+        width: 109.3%;
+    }
+
+
+
+}
+
+@media(Max-width:851px){
+
+    header{
+        margin: -1em -5.1em -1em -1em;
+    }
+    nav{
+        margin: -3em -5.1em -1em -1em;
+        padding: 1.5em;
+    }
+
+    .imagem{
+        width: 114.5%;
+    }
+
+
+    main>.imagens{
+
+        width: 40%;
+        height: 90%;
+        margin: -90.2em 0em 0em 20em;
+    }
+    .imagens2{
+        width: 40%;
+        height: 60%;
+        margin: -42.5em 0em 0em 20em;
+        
+    }
+
+    main>.imagens{
+
+        width: 40%;
+        height: 90%;
+        margin: -90.2em 0em 0em 20em;
+    }
+    .imagens2{
+        width: 40%;
+        height: 60%;
+        margin: -42.5em 0em 0em 20em;
+        
+    }
+
+
+    .equipe>img{
+        width: 40%;
+    }
+
+    .contato {
+        margin: -8.2em 1em 1em 32em;
+    }
+    aside>footer{
+        width: 114.6%;
+    }
+
+}
+
+@media(Max-width:844px){
+
+    header{
+        margin: -1em -5em -1em -1em;
+    }
+    nav{
+        margin: -3em -5em -1em -1em;
+        padding: 1.5em;
+    }
+
+    .imagem{
+        width: 114.5%;
+    }
+
+
+    main>.imagens{
+
+        width: 40%;
+        height: 90%;
+        margin: -90.2em 0em 0em 20em;
+    }
+    .imagens2{
+        width: 40%;
+        height: 60%;
+        margin: -42.5em 0em 0em 20em;
+        
+    }
+
+
+    .equipe>img{
+        width: 40%;
+    }
+
+    .contato {
+        margin: -8.2em 1em 1em 32em;
+    }
+    aside>footer{
+        width: 114.6%;
+    }
+
+}
+
+@media(Max-width:820px){
+
+    main{
+        margin-left: 3.5em;
+    }
+
+    header{
+        margin: -1em -5.9em -1em -1em;
+    }
+    nav{
+        margin: -3em -5.9em -1em -1em;
+        padding: 1.5em;
+    }
+
+    .imagem{
+        width: 117.2%;
+    }
+    main>.imagens{
+
+        width: 40%;
+        height: 40%;
+        margin: -90.2em 0em 0em 20em;
+    }
+    .imagens2{
+        width: 40%;
+        height: 30%;
+        margin: -46.5em 0em 0em 20em;
+        
+    }
+    .equipe{
+        margin-left: -6em;
+    }
+    
+
+    .imagemmeio{
+        width: 25em;
+        margin-left: 0%;
+    }
+    .imagemfim{
+        width: 25em;
+        margin-left: 0%;
+    }
+
+aside>footer{
+    width: 117.2%;
+}
+
+}
+
+@media(Max-width:786px){
+    main{
+        margin-left: 2.46em;
+        width: 100%;
+    }
+    header{
+        margin: -1em -4.8em -1em -1em;
+    }
+    nav{
+        margin: -3em -4.8em -1em -1em;
+        padding: 1.5em;
+    }
+    .imagem{
+        width: 115%;
+    }
+    main>.imagens{
+
+        width: 50%;
+        height: 100%;
+        margin: -90.2em 0em 0em 20em;
+    }
+    main>.imagens>img{
+        width: 100%;
+        height: 80%;
+    }
+    .imagens2{
+        width: 50%;
+        height: 70%;
+        margin: -42.5em 0em 0em 20em;
+        
+    }
+    .imagens2>img{
+        width: 100%;
+        height: 80%;
+    }
+    .imagemmeio{
+        width: 25em;
+        margin-left: 0%;
+    }
+    .imagemfim{
+        width: 25em;
+        margin-left: 0%;
+    }
+
+   
+
+
+    .contato {
+        margin: -8.2em 1em 1em 32em;
+    }
+    .equipe>img{
+        width: 40%;
+    }
+    aside>footer{
+        width: 115%;
+    }
+
+
+}
+
+@media(Max-width:768px){
+
+    main{
+
+        margin-left: 3%;
+
+    }
+
+    nav{
+        margin: -3em -4.8em -1em -1em;
+        
     }
     nav>a{
         margin-left: 0px;
@@ -256,17 +525,16 @@ footer>.localizacao>.localizacao2{
         border-radius: 5px;
     }
     .imagem{
-        width: 39em;
-        
+        width: 115.4%;
         height: 20em;
         background-image: url(imagem/A\ tecnologia\ entre\ nós2.jpg);
     }
     main>.imagens{
 
         width: 40%;
-        height: 60%;
+        height: 50%;
         position: absolute;
-        margin: -98.2em 0em 0em 19em;
+        margin: -90.2em 0em 0em 19em;
     }
     main>.imagens>img{
 
@@ -275,9 +543,9 @@ footer>.localizacao>.localizacao2{
     }
     .imagens2{
         width: 42%;
-        height: 60%;
+        height: 30%;
         position: absolute;
-        margin: -48.5em 0em 0em 18em;
+        margin: -43.5em 0em 0em 22em;
         
     }
     .imagens2>img{
@@ -313,11 +581,209 @@ footer>.localizacao>.localizacao2{
         position: absolute;
         margin: -8.2em 1em 1em 27em;
     }
+    aside>footer{
+        width: 115.4%;
+    }
     
+}
+
+@media(Max-width:745px){
+
+    main{
+        margin-left: 1em;
+    }
+    header{
+        margin: -1em -4.5em -1em -1em;
+    }
+    nav{
+        margin: -3em -4.5em -1em -1em;
+        padding: 1.5em;
+    }
+    .imagem{
+        width: 115.2%;
+    }
+    aside>footer{
+        width: 115.2%;
+    }
+
+}
+
+@media(Max-width:740px){
+
+    main{
+        margin-left: 0em;
+    }
+
+
+    header{
+        margin: -1em -2.2em -1em -1em;
+    }
+    nav{
+        margin: -3em -2.2em -1em -1em;
+        padding: 1.5em;
+    }
+    .imagem{
+        width: 109%;
+    
+    }
+    .imagens2{
+        margin-left: 21em;
+        margin-top: -12em;
+    }
+    aside>footer{
+        width: 109%;
+    }
+
+}
+
+@media(Max-width:712px){
+
+    body{
+        background-color: white;
+    }
+    .imagem{
+        width: 126.7%;
+    
+    }
+
+    header{
+        margin: -1em -8.29em -1em -1em;
+    }
+    nav{
+        margin: -3em -8.29em -1em -1em;
+        padding: 1.5em;
+    }
+    main>.imagens{
+
+        width: 68%;
+        height: 38%;
+        position: absolute;
+        margin: -100em 0em 0em 17em;
+    }
+    main>.imagens>img{
+
+        width: 100%;
+        height: 100%;
+    }
+    .imagens2{
+        width: 50%;
+        height: 25%;
+        position: absolute;
+        margin: -48.5em 0em 0em 20em;
+        
+    }
+    .imagens2>img{
+        width: 118%;
+        height: 100%;
+    }
+    aside>footer{
+        width: 126.75%;
+    }
+
+
+}
+
+@media(Max-width:667px){
+
+    .imagem{
+        width: 128.5%;
+    }
+    main>.imagens{
+
+        width: 50%;
+        height: 80%;
+        position: absolute;
+        margin: -100em 0em 0em 19em;
+    }
+    main>.imagens>img{
+
+        width: 120%;
+        height: 120%;
+    }
+    .imagens2{
+        width: 55%;
+        height: 70%;
+        position: absolute;
+        margin: -48.5em 0em 0em 17em;
+        
+    }
+    .imagens2>img{
+        width: 118%;
+        height: 100%;
+    }
+    aside>footer{
+        width: 128.5%;
+    }
+
+}
+
+@media(Max-width:658px){
+
+    body{
+        background-color: white;
+    }
+    header{
+        margin: -1em -5.9em -1em -1em;
+    }
+    nav{
+        margin: -3em -5.9em -1em -1em;
+        padding: 1.5em;
+    }
+    .imagem{
+        width: 121.5%;
+    }
+    main>.imagens{
+
+        width: 50%;
+        height: 60%;
+        position: absolute;
+        margin: -100em 0em 0em 15em;
+    }
+    main>.imagens>img{
+
+        width: 120%;
+        height: 120%;
+    }
+    .imagens2{
+        width: 55%;
+        height: 70%;
+        position: absolute;
+        margin: -48.5em 0em 0em 15em;
+        
+    }
+    .imagens2>img{
+        width: 118%;
+        height: 100%;
+    }
+    .imagemmeio{
+        width: 22em;
+        margin:1em 1em 1em 0em ;
+    }
+    .imagemfim{
+        width: 22em;
+        margin:1em 1em 1em 0em ;
+    }
+    aside>footer{
+        width: 121.5%;
+    }
+
 }
     
 
-@media(Max-width:665px){
+@media(Max-width:640px){
+    main{
+        scroll-margin-left: 5%;
+        width: 80%;
+    }
+
+    header{
+        margin: -1em -0.8em -1em -1em;
+    }
+    nav{
+        margin: -3em -0.8em -1em -1em;
+        padding: 1.5em;
+    }
+
     nav>a{
         margin-left: 0px;
         padding: 2px;
@@ -328,17 +794,15 @@ footer>.localizacao>.localizacao2{
         display: none;
     }
     .imagem{
-        width: 33.87em;
-        
-        height: 20em;
-        background-image: url(imagem/A\ tecnologia\ entre\ nós2.jpg);
+        width: 33em;
+    
     }
     main>.imagens{
 
         width: 40%;
         height: 60%;
         position: absolute;
-        margin: -88.2em 0em 0em 15em;
+        margin: -98.2em 0em 0em 15em;
     }
     main>.imagens>img{
 
@@ -357,16 +821,11 @@ footer>.localizacao>.localizacao2{
         height: 80%;
     }
     .imagemmeio{
-        width: 20em;
-        margin:1em 1em 1em 0em ;
-        border-radius: 1em 1em 1em 1em;
-        border-radius: 2px 2px 3px 2px black;
+        margin:1em 2em 1em 0em ;
     }
     .imagemfim{
         width: 20em;
         margin:1em 1em 1em 0em ;
-        border-radius: 1em 1em 1em 1em;
-        border-radius: 2px 2px 3px 2px black;
     }
     .whatsapp>a>img{
         width: 25%;
@@ -390,9 +849,11 @@ footer>.localizacao>.localizacao2{
     }
     aside>footer{
         margin-left:-0.5em ;
+        width: 104.2%;
     }
 
 }
+
 @media(Max-width:522px){
     body{
         background-color: white;
@@ -445,11 +906,15 @@ footer>.localizacao>.localizacao2{
         position: absolute;
         margin: -25% 0em 0em 12em;
     }
+    footer>.localizacao {
+
+        display: none;
+
+    }
    
     .contato {
         position: absolute;
-        margin: -6em 1em 1em 23.5em;
-        display: none;
+        margin: -8em 1em 1em 15em;
     }
     .whatsapp>a>img{
         position: absolute;
@@ -484,6 +949,24 @@ footer>.localizacao>.localizacao2{
    
 
 }
+
+@media(Max-width:480px){
+
+    header{
+        margin: -1em -1.9em -1em -1em;
+    }
+    nav{
+        margin: -3em -1.9em -1em -1em;
+    }
+    .imagem{
+        width: 112.5%;
+    }
+    aside>footer{
+        width: 110.4%;
+    }
+
+}
+
 @media(Max-width:460px){
     header{
         margin: -1em -0.4em -1em -1em;
@@ -577,10 +1060,6 @@ footer>.localizacao>.localizacao2{
 
 }
 
-
-
-
-
 @media(Max-width:427px){
     header{
         margin: -1em -1.43em -1em -1em;
@@ -657,7 +1136,25 @@ footer>.localizacao>.localizacao2{
       }
 }
 
+@media(Max-width:420px){
+
+
+    .imagem{
+        width: 112.2%;
+    }
+    aside>footer{
+        margin-top: 0.5em;
+        width: 109.8%;
+        margin-bottom: -10%;
+    }
+
+
+}
+
 @media(Max-width:414px){
+    main{
+        margin-left: 1.2em;
+    }
 
     header{
         margin: -1em -1.53em -1em -1em;
@@ -676,6 +1173,13 @@ footer>.localizacao>.localizacao2{
         margin-left: -2.5em;
         margin-top: -3em;
     } 
+    .logomarca{
+        width: 19em;
+    }
+    .contato {
+        position: absolute;
+        margin: -7em 1em 1em 12em;
+    }  
     aside>footer{
         margin-top: 0.5em;
         width: 110.2%;
@@ -686,67 +1190,103 @@ footer>.localizacao>.localizacao2{
 @media(Max-width:412px){
 
     .imagem{
-        width: 112.4%;
+        width: 112.9%;
     }
 
     aside>footer{
         margin-top: 0.5em;
-        width: 109.8%;
+        width: 110.5%;
     }
 
 }
 
 @media(Max-width:393px){
+    main{
+        margin: 6%;
+    }
     header{
-        margin: -1em -1.15em -1em -1em;
+        margin: -1em -5em -1em -1em;
     }
     nav{
-        margin: -3em -1.15em -1em -1em;
+        margin: -3em -5em -1em -1em;
     }
     .imagem{
-        width: 111.4%;
+        width: 131.9%;
+    }
+    .imagemmeio{
+        margin-left: 0em;
+    }
+    .imagemfim{
+        margin-left: 0em;
     }
     aside>footer{
         margin-top: 0.5em;
-        width: 108.65%;
+        width: 129.3%;
         margin-bottom: -10%;
     }
     .manu{
         display: none;
       }
+      .contato {
+        position: absolute;
+        margin: -8em 1em 1em 12em;
+    }   
+    
 }
 @media(Max-width:390px){
 
     header{
-        margin: -1em -1.23em -1em -1em;
+        margin: -1em -1.28em -1em -1em;
     }
     nav{
-        margin: -3em -1.23em -1em -1em;
+        margin: -3em -1.28em -1em -1em;
     }
     .imagem{
-        width: 111.9%;
+        width: 112.2%;
     }
+    .contato {
+        margin: -8em 1em 1em 11em;
+    }   
     aside>footer{
         width: 109.5%;
     }
 
+
 }
 @media(Max-width:384px){
+    main{
+        margin-left: 1em;
+    }
     header{
-        margin: -1em -1.78em -1em -1em;
+        margin: -1em -3.3em -1em -1em;
     }
     nav{
-        margin: -3em -1.78em -1em -1em;
+        margin: -3em -3.3em -1em -1em;
     }
      .imagem{
-        width: 115.1%;
+        width: 123.4%;
+    }
+    .imagemmeio{
+        width: 100%;
+        margin-left: -0.01em;
+    }
+    .imagemfim{
+        width: 100%;
+        margin-left: -0.01em;
     }
     .manu{
         display: none;
       }
       aside>footer{
-        width: 112.5%;
+        width: 120.9%;
         margin-bottom: -10%;
+    }
+    .contato {
+        position: absolute;
+        margin: -7em 1em 1em 12em;
+    }    
+    .logomarca{
+        width: 19em;
     }
 
 }   
@@ -787,19 +1327,38 @@ footer>.localizacao>.localizacao2{
     .manu{
         display: none;
     }
+    .contato {
+        margin: -6.5em 1em 1em 10em;
+    }
 }    
 @media(Max-width:360px){
+    main{
+        margin: 0% 8% 0% 8%
+    }
     header{
-        margin: -1em -1.49em -1em -1em;
+        margin: -1em -5.2em -1em -1em;
     }
     nav{
-        margin: -3em -1.49em -1em -1em;
+        margin: -3em -5.2em -1em -1em;
     }
     .imagem{
-        width: 114.4%;
+        width: 136%;
     }  
+    .imagemmeio{
+        margin:1em 1em 1em 0em ;
+    }
+    .imagemfim{
+        margin:1em 1em 1em 0em ;
+    }
     aside>footer{
-        width: 111.7%;
+        width: 133.2%;
+    }
+    .contato {
+        position: absolute;
+        margin: -6.5em 1em 1em 12em;
+    }
+    .logomarca{
+        width: 19em;
     }
     .manu{
         display: none;
@@ -808,18 +1367,28 @@ footer>.localizacao>.localizacao2{
 }
 
 @media(Max-width:353px){
+    main{
+        margin: 0em;
+    }
 
     header{
-        margin: -1em -1.68em -1em -1em;
+        margin: -1em -1.8em -1em -1em;
     }
     nav{
-        margin: -3em -1.68em -1em -1em;
+        margin: -3em -1.8em -1em -1em;
     }
     .imagem{
-        width: 116%;
+        width: 116.7%;
     }  
+    .contato {
+        position: absolute;
+        margin: -6.5em 1em 1em 9.5em;
+    }
+    .logomarca{
+        margin-left: -1em;
+    }
     aside>footer{
-        width: 112.73%;
+        width: 113.7%;
     }
     
 }
@@ -859,11 +1428,20 @@ footer>.localizacao>.localizacao2{
     }     
 }
 @media(Max-width:320px){
+    main{
+        margin-left: 3em;
+    }
+    header{
+        margin: -1em -5.3em -1em -1em;
+    }
+    nav{
+        margin: -1em -5.3em -1em -1em;
+    }
     .imagem{
-        width: 115.65%;
+        width: 141.5%;
       }
       aside>footer{
-        width: 112.5%;
+        width: 138%;
         margin-bottom: -10%;
     }
     .whatsapp>a>img{
@@ -871,7 +1449,12 @@ footer>.localizacao>.localizacao2{
         margin-left: -2.5em;
         margin-top: -2.2em;
     } 
+    .contato {
+        margin: -6.5em 1em 1em 11em;
+    }
+    .logomarca{
+        width: 17em;
+    }
+   
 }
-
-
 
