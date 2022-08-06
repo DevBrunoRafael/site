@@ -1153,7 +1153,7 @@ aside>footer{
 
 @media(Max-width:414px){
     main{
-        margin-left: 1.2em;
+        margin-left: 0em;
     }
 
     header{
@@ -1162,6 +1162,16 @@ aside>footer{
     nav{
         margin: -3em -1.53em -1em -1em;
         padding: 1.5em;
+    }
+    main>.texto>article>p{
+        
+        width: 118%;
+
+    }
+    main>article>p{
+        
+        width: 118%;
+
     }
 
     .imagem{
@@ -1175,6 +1185,10 @@ aside>footer{
     } 
     .logomarca{
         width: 19em;
+    }
+    .sobrenos{
+        width: 120%;
+        margin-left: -1.2em;
     }
     .contato {
         position: absolute;
@@ -1210,6 +1224,18 @@ aside>footer{
     nav{
         margin: -3em -5em -1em -1em;
     }
+
+    main>.texto>article>p{
+        
+        width: 130%;
+
+    }
+    main>article>p{
+        
+        width: 130%;
+
+    }
+
     .imagem{
         width: 131.9%;
     }
@@ -1227,6 +1253,10 @@ aside>footer{
     .manu{
         display: none;
       }
+      .sobrenos{
+        width: 130%;
+        margin-left: -1.8em;
+    }
       .contato {
         position: absolute;
         margin: -8em 1em 1em 12em;
@@ -1234,6 +1264,9 @@ aside>footer{
     
 }
 @media(Max-width:390px){
+    main{
+        margin: 0%;
+    }
 
     header{
         margin: -1em -1.28em -1em -1em;
@@ -1241,8 +1274,22 @@ aside>footer{
     nav{
         margin: -3em -1.28em -1em -1em;
     }
+    main>.texto>article>p{
+        
+        width: 119%;
+
+    }
+    main>article>p{
+        
+        width: 119%;
+
+    }
     .imagem{
         width: 112.2%;
+    }
+    .sobrenos{
+        width: 122.5%;
+        margin-left: -1.8em;
     }
     .contato {
         margin: -8em 1em 1em 11em;
@@ -1255,7 +1302,7 @@ aside>footer{
 }
 @media(Max-width:384px){
     main{
-        margin-left: 1em;
+        margin-left: 0em;
     }
     header{
         margin: -1em -3.3em -1em -1em;
@@ -1281,6 +1328,9 @@ aside>footer{
         width: 120.9%;
         margin-bottom: -10%;
     }
+    .sobrenos{
+        margin-left: -1em;
+    }
     .contato {
         position: absolute;
         margin: -7em 1em 1em 12em;
@@ -1291,11 +1341,22 @@ aside>footer{
 
 }   
 @media(Max-width:375px){
+
     header{
         margin: -1em -1.1em -1em -1em;
     }
     nav{
         margin: -3em -1.1em -1em -1em;
+    }
+    main>.texto>article>p{
+        
+        width: 115%;
+
+    }
+    main>article>p{
+        
+        width: 115%;
+
     }
     .email1{
       display: none;
@@ -1306,6 +1367,11 @@ aside>footer{
     .localizacao>a{
       font-size: 1.2em;
     } 
+    .sobrenos{
+        width: 122.4%;
+        margin-left: -1.8em;
+    }
+
     .whatsapp>a>img{
         width: 20%;
         height: 18%;
@@ -1333,7 +1399,17 @@ aside>footer{
 }    
 @media(Max-width:360px){
     main{
-        margin: 0% 8% 0% 8%
+        margin: 0%;
+    }
+    main>.texto>article>p{
+        
+        width: 145%;
+
+    }
+    main>article>p{
+        
+        width: 145%;
+
     }
     header{
         margin: -1em -5.2em -1em -1em;
@@ -1349,6 +1425,10 @@ aside>footer{
     }
     .imagemfim{
         margin:1em 1em 1em 0em ;
+    }
+    .sobrenos{
+        width: 135%;
+        margin-left: -0.5em;
     }
     aside>footer{
         width: 133.2%;
@@ -1377,9 +1457,27 @@ aside>footer{
     nav{
         margin: -3em -1.8em -1em -1em;
     }
+    main>.texto>article>p{
+        
+        width: 117%;
+
+    }
+    main>article>p{
+        
+        width: 117%;
+
+    }
+
+
     .imagem{
         width: 116.7%;
     }  
+
+    .sobrenos{
+        width: 128%;
+        margin-left: -1.8em;
+    }
+
     .contato {
         position: absolute;
         margin: -6.5em 1em 1em 9.5em;
@@ -1429,13 +1527,23 @@ aside>footer{
 }
 @media(Max-width:320px){
     main{
-        margin-left: 3em;
+        margin-left: 0em;
     }
     header{
         margin: -1em -5.3em -1em -1em;
     }
     nav{
         margin: -1em -5.3em -1em -1em;
+    }
+    main>.texto>article>p{
+        
+        width: 148%;
+
+    }
+    main>article>p{
+        
+        width: 148%;
+
     }
     .imagem{
         width: 141.5%;
@@ -1449,6 +1557,10 @@ aside>footer{
         margin-left: -2.5em;
         margin-top: -2.2em;
     } 
+    .sobrenos{
+        width: 142%;
+        margin-left: -0.8em;
+    }
     .contato {
         margin: -6.5em 1em 1em 11em;
     }
@@ -1457,4 +1569,6 @@ aside>footer{
     }
    
 }
+
+
 
