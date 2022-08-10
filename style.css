@@ -1403,22 +1403,22 @@ aside>footer{
     }
     main>.texto>article>p{
         
-        width: 145%;
+        width: 115%;
 
     }
     main>article>p{
         
-        width: 145%;
+        width: 115%;
 
     }
     header{
-        margin: -1em -5.2em -1em -1em;
+        margin: -1em -1.3em -1em -1em;
     }
     nav{
-        margin: -3em -5.2em -1em -1em;
+        margin: -3em -1.3em -1em -1em;
     }
     .imagem{
-        width: 136%;
+        width: 113.5%;
     }  
     .imagemmeio{
         margin:1em 1em 1em 0em ;
@@ -1427,15 +1427,15 @@ aside>footer{
         margin:1em 1em 1em 0em ;
     }
     .sobrenos{
-        width: 135%;
+        width: 100%;
         margin-left: -0.5em;
     }
     aside>footer{
-        width: 133.2%;
+        width: 110.5%;
     }
     .contato {
         position: absolute;
-        margin: -6.5em 1em 1em 12em;
+        margin: -6.5em 1em 1em 9.5em;
     }
     .logomarca{
         width: 19em;
