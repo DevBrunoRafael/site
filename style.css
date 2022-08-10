@@ -1530,26 +1530,26 @@ aside>footer{
         margin-left: 0em;
     }
     header{
-        margin: -1em -5.3em -1em -1em;
+        margin: -1em -0.4em -1em -1em;
     }
     nav{
-        margin: -1em -5.3em -1em -1em;
+        margin: -1em -0.4em -1em -1em;
     }
     main>.texto>article>p{
         
-        width: 148%;
+        width: 110%;
 
     }
     main>article>p{
         
-        width: 148%;
+        width: 100%;
 
     }
     .imagem{
-        width: 141.5%;
+        width: 109.2%;
       }
       aside>footer{
-        width: 138%;
+        width: 106%;
         margin-bottom: -10%;
     }
     .whatsapp>a>img{
@@ -1558,17 +1558,15 @@ aside>footer{
         margin-top: -2.2em;
     } 
     .sobrenos{
-        width: 142%;
-        margin-left: -0.8em;
+        width: 114.2%;
+        margin-left: -1.5em;
     }
     .contato {
-        margin: -6.5em 1em 1em 11em;
+   
+        margin: -5.5em 1em 1em 7em;
     }
     .logomarca{
-        width: 17em;
+        width: 14em;
     }
    
 }
-
-
-
