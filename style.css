@@ -3,6 +3,9 @@
 header{
     background-color: #229274;
 }
+h1{
+    color: white;
+}
 nav>a{
     text-decoration: none;
     color: white;
@@ -19,6 +22,26 @@ nav>a{
 
 
 }
+@media(Max-width:360px){
+
+    header{
+        width: 105.3%;
+        margin: -8% 0% 0% -3%;
+        padding: 10% 0% 10% 0%;
+    }
+    h1{
+        margin-left: 18.5%;
+    }
+    nav{
+        margin: -8% 0% 0% -3%;
+    }
+    nav>a{
+        padding: 4% 0% 0% 8%;
+    }
+  
+
+
+}
 @media(Max-width:320px){
     header{
         width: 105.5%;
@@ -27,9 +50,6 @@ nav>a{
     }
     h1{
         margin-left: 15%;
-    }
-    nav{
-        margin: -8% 0% 0% -3%;
     }
     nav>a{
         padding: 4% 0% 0% 6%;
@@ -47,17 +67,14 @@ nav>a{
     h1{
         margin-left: 11%;
     }
-    nav{
-        margin: -8% 0% 0% -3%;
-    }
     nav>a{
         padding: 4% 0% 0% 3.5%;
-    }
-    
-    
-    
-   
+    } 
+       
 }
+
+
+
 
 
 
