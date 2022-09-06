@@ -49,13 +49,27 @@ nav>a{
     }
     .imagem{
         width: 106%;
-        height: 12.5em;
+        height: 14em;
         margin-left: -1em;
         margin-top: -1.2em;
         background-image: url(imagem/imagem414.jpg);
     }
 
 }
+
+@media(Max-width:400px){
+
+    .imagem{
+        width: 106.2%;
+        height: 14em;
+        margin-left: -1em;
+        margin-top: -1.2em;
+        background-image: url(imagem/imagem414.jpg);
+    }
+
+
+}
+
 
 @media(Max-width:393px){
 
@@ -153,18 +167,7 @@ nav>a{
         background-image: url(imagem/imagem360.jpg);
     }
 
-    @media(Max-width:342px){
-
-        .imagem{
-            width: 107.3%;
-            height: 11.5em;
-            margin-left: -1em;
-            margin-top: -1.2em;
-            background-image: url(imagem/imagem360.jpg);
-        }
-
-
-    }
+   
 
 
 }
