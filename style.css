@@ -11,6 +11,14 @@ nav>a{
     color: white;
     background-color: #229274;
 }
+
+.imagem{
+    width: 68em;
+    margin-left: -1em;
+    height: 35em;
+    background-image: url(imagem/A\ tecnologia\ entre\ nós1.jpg);
+}
+
 @media(Max-width:580px){
 
     .cuidados{
@@ -34,10 +42,17 @@ nav>a{
         margin-left: 22%;
     }
     nav{
-        margin: -8% 0% 0% -3%;
+        margin: -10% 0% 10% -3%;
     }
     nav>a{
         padding: 4% 0% 0% 8%;
+    }
+    .imagem{
+        width: 106%;
+        height: 11.5em;
+        margin-left: -1em;
+        margin-top: -1.2em;
+        background-image: url(imagem/imagem414.jpg);
     }
 
 }
@@ -56,6 +71,13 @@ nav>a{
     nav>a{
         padding: 4% 0% 0% 9%;
     }
+    .imagem{
+        width: 106.3%;
+        height: 11.5em;
+        margin-left: -1em;
+        margin-top: -1.2em;
+        background-image: url(imagem/imagem360.jpg);
+    }
 
 
 }
@@ -66,6 +88,13 @@ nav>a{
         width: 105.2%;
         margin: -8% 0% 0% -3%;
         padding: 10% 0% 10% 0%;
+    }
+    .imagem{
+        width: 106.5%;
+        height: 11.5em;
+        margin-left: -1em;
+        margin-top: -1.2em;
+        background-image: url(imagem/imagem360.jpg);
     }
 
 }
@@ -94,6 +123,13 @@ nav>a{
     h1{
         margin-left: 20%;
     }
+    .imagem{
+        width: 106.7%;
+        height: 12.5em;
+        margin-left: -1em;
+        margin-top: -1.2em;
+        background-image: url(imagem/imagem375.jpg);
+    }
 
 
 }
@@ -109,6 +145,13 @@ nav>a{
     h1{
         margin-left: 18.5%;
     }
+    .imagem{
+        width: 107%;
+        height: 11.5em;
+        margin-left: -1em;
+        margin-top: -1.2em;
+        background-image: url(imagem/imagem360.jpg);
+    }
 
 
 }
@@ -123,6 +166,13 @@ nav>a{
     }
     nav>a{
         padding: 4% 0% 0% 6%;
+    }
+    .imagem{
+        width: 108%;
+        height: 10.5em;
+        margin-left: -1em;
+        margin-top: -1.2em;
+        background-image: url(imagem/imagem320.jpg);
     }
     
    
@@ -140,9 +190,14 @@ nav>a{
     nav>a{
         padding: 4% 0% 0% 3.5%;
     }
+    .imagem{
+        width: 109.27%;
+        height: 9.5em;
+        margin-left: -1em;
+        background-image: url(imagem/imagem280.jpg);
+    }
     
     
     
    
 }
-
