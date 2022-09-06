@@ -47,7 +47,7 @@ nav>a{
     nav>a{
         padding: 4% 0% 0% 8%;
     }
-     .imagem{
+    .imagem{
         width: 106%;
         height: 12.5em;
         margin-left: -1em;
@@ -151,6 +151,19 @@ nav>a{
         margin-left: -1em;
         margin-top: -1.2em;
         background-image: url(imagem/imagem360.jpg);
+    }
+
+    @media(Max-width:345px){
+
+        .imagem{
+            width: 107.2%;
+            height: 11.5em;
+            margin-left: -1em;
+            margin-top: -1.2em;
+            background-image: url(imagem/imagem360.jpg);
+        }
+
+
     }
 
 
