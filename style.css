@@ -153,7 +153,7 @@ nav>a{
         background-image: url(imagem/imagem360.jpg);
     }
 
-    @media(Max-width:345px){
+    @media(Max-width:342px){
 
         .imagem{
             width: 107.2%;
@@ -214,3 +214,6 @@ nav>a{
     
    
 }
+
+
+
