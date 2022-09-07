@@ -81,6 +81,9 @@ aside>footer{
         margin: -6em 0em 0em 9.5em;
     
     }
+    a{
+        text-decoration: none;
+    }
    
 
 
@@ -122,7 +125,7 @@ aside>footer{
     .whatsapp>a>img{
         width: 140px;
         position: fixed;
-        margin: -106em 0em 0em 19em;
+        margin: -125em 0em 0em 19em;
     }
 
 }
@@ -178,7 +181,7 @@ aside>footer{
     .whatsapp>a>img{
         width: 110px;
         position: fixed;
-        margin: -107.3em 0em 0em 19em;
+        margin: -125.3em 0em 0em 19em;
     }
      
     aside>footer{
@@ -213,7 +216,7 @@ aside>footer{
     .whatsapp>a>img{
         width: 110px;
         position: fixed;
-        margin: -107.5em 0em 0em 18.3em;
+        margin: -125em 0em 0em 18.3em;
     }
 
     .logomarca>a>img{
@@ -246,7 +249,7 @@ aside>footer{
     .whatsapp>a>img{
         width: 110px;
         position: fixed;
-        margin: -118.5em 0em 0em 18.3em;
+        margin: -125em 0em 0em 18.3em;
     }
 
 
@@ -307,7 +310,7 @@ aside>footer{
     .whatsapp>a>img{
         width: 110px;
         position: fixed;
-        margin: -114.5em 0em 0em 17em;
+        margin: -125em 0em 0em 17em;
     }
  
     aside>footer{
@@ -398,9 +401,14 @@ aside>footer{
         position: absolute;
         margin: -5.5em 0em 0em 6.5em;
 
-    }    
+    }
+
+    
+
+  
+    
+    
+    
    
 }
-
-
 
