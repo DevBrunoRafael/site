@@ -187,6 +187,8 @@ aside>footer{
 
 }
 
+
+
 @media(Max-width:407px){
 
     .imagem{
@@ -199,7 +201,7 @@ aside>footer{
     .whatsapp>a>img{
         width: 110px;
         position: fixed;
-        margin: -112em 0em 0em 19em;
+        margin: -125em 0em 0em 19em;
     }
 
 
