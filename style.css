@@ -29,9 +29,32 @@ aside>footer{
     margin: 0em 0em -0.5em -0.5em;
 }
 
+@media(Max-width:658px){
 
+    header{
+        width: 104.3%;
+        margin: -8% 0% 0% -3%;
+        padding: 10% 0% 10% 0%;
+    }
 
-@media(Max-width:580px){
+    h1{
+        margin-left: 33%;
+    }
+    nav{
+        margin: -10% 0% 10% -3%;
+    }
+    
+    nav>a{
+        padding: 4% 0% 0% 3%;
+    }
+
+    .imagem{
+        width:103.7%;
+        height: 20em;
+        margin-left: -1em;
+        margin-top: -1.2em;
+        background-image: url(imagem/imagem640.jpg);
+    }
 
     #imagemmeio{
         width: 95%;
@@ -47,6 +70,8 @@ aside>footer{
         border-radius: 2px 2px 3px 2px black;
     
     }
+
+
     .equipe{
         display: none;
     }
@@ -57,6 +82,112 @@ aside>footer{
     .imagens{
         display: none;
     }
+
+    .whatsapp>a>img{
+        width: 140px;
+        position: fixed;
+        margin: -118em 0em 0em 33em;
+    }
+
+
+    
+    aside>footer{
+        width: 102.5%;
+    }
+    .logomarca>a>img{
+        width: 150px;
+    }
+
+    #email{
+        width: 50px;
+    }
+    .instagram{
+        width: 57px;
+        margin-bottom: -0.5em;
+    }
+    .links{
+      
+        position: absolute;
+        margin: -7.3em 0em 0em 17em;
+    
+    }
+
+
+
+}
+
+
+@media(Max-width:640px){
+
+    header{
+        width: 104.3%;
+        margin: -8% 0% 0% -3%;
+        padding: 10% 0% 10% 0%;
+    }
+
+    h1{
+        margin-left: 33%;
+    }
+    nav{
+        margin: -10% 0% 10% -3%;
+    }
+    
+    nav>a{
+        padding: 4% 0% 0% 3%;
+    }
+
+    
+    .imagem{
+        width: 103.8%;
+        height: 20em;
+        margin-left: -1em;
+        margin-top: -1.2em;
+        background-image: url(imagem/imagem640.jpg);
+    }
+
+    .whatsapp>a>img{
+        width: 140px;
+        position: fixed;
+        margin: -118em 0em 0em 33em;
+    }
+
+
+    
+
+}
+
+@media(Max-width:600px){
+
+
+    nav>a{
+        padding: 4% 0% 0% 2.5%;
+    }
+
+     
+    .imagem{
+        width: 104.1%;
+        height: 20em;
+        margin-left: -1em;
+        margin-top: -1.2em;
+        background-image: url(imagem/imagem640.jpg);
+    }
+
+    .whatsapp>a>img{
+        width: 140px;
+        position: fixed;
+        margin: -118em 0em 0em 30em;
+    }
+    aside>footer{
+        
+        width: 102.7%;
+    
+    }
+
+}
+
+
+@media(Max-width:580px){
+
 
     .cuidados{
         display: none;
