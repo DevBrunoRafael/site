@@ -29,6 +29,220 @@ aside>footer{
     margin: 0em 0em -0.5em -0.5em;
 }
 
+@media(Max-width:915px){
+
+    header{
+        width: 103.9%;
+        margin: -8% 0% 0% -3%;
+        padding: 10% 0% 10% 0%;
+    }
+
+    h1{
+        margin-left: 33%;
+    }
+    nav{
+        margin: -5% 0% 10% -3%;
+    }
+    
+    nav>a{
+        padding: 4% 0% 0% 6.8%;
+    }
+
+    .imagem{
+        width:102.7%;
+        height: 29em;
+        margin-left: -1em;
+        margin-top: -4em;
+        background-image: url(imagem/imagem915.jpg);
+    }
+
+    #imagemmeio{
+        width: 95%;
+        margin: 0% 0% 0% 2.5%;
+        border-radius: 5%;
+        border-radius: 2px 2px 3px 2px black;
+    
+    }
+    .imagemfim{
+        width: 95%;
+        margin: 0% 0% 0% 2.5%;
+        border-radius: 5%;
+        border-radius: 2px 2px 3px 2px black;
+    
+    }
+
+    .equipe{
+        display: none;
+    }
+    
+    .imagens2{
+        display: none;
+    }
+    .imagens{
+        display: none;
+    }
+
+       
+    .whatsapp>a>img{
+        width: 140px;
+        position: fixed;
+        margin: -118em 0em 0em 33em;
+    }
+
+    aside>footer{
+        width: 101.8%;
+    }
+    .logomarca>a>img{
+        width: 180px;
+    }
+
+    #email{
+        width: 50px;
+    }
+    .instagram{
+        width: 57px;
+        margin-bottom: -0.5em;
+    }
+    .links{
+      
+        position: absolute;
+        margin: -9em 0em 0em 22em;
+    
+    }
+
+
+}
+
+@media(Max-width:854px){
+
+
+    .imagem{
+        width:102.9%;
+        height: 29em;
+        margin-left: -1em;
+        margin-top: -4em;
+        background-image: url(imagem/imagem915.jpg);
+    }
+
+    aside>footer{
+        width: 101.9%;
+    }
+
+
+}
+
+@media(Max-width:844px){
+
+    header{
+        width: 104%;
+        margin: -8% 0% 0% -3%;
+        padding: 10% 0% 10% 0%;
+    }
+
+
+}
+
+@media(Max-width:823px){
+
+    nav>a{
+        padding: 4% 0% 0% 6%;
+    } 
+    .imagem{
+        width:103%;
+        height: 25em;
+        margin-left: -1em;
+        margin-top: -3.7em;
+        background-image: url(imagem/imagem915.jpg);
+    }
+    aside>footer{
+        width: 102%;
+    }
+
+}
+
+@media(Max-width:786px){
+
+    header{
+        width: 104.3%;
+        margin: -8% 0% 0% -3%;
+        padding: 10% 0% 10% 0%;
+    }
+
+    h1{
+        margin-left: 33%;
+    }
+    nav{
+        margin: -5% 0% 10% -3%;
+    }
+    
+    nav>a{
+        padding: 4% 0% 0% 5%;
+    }
+
+    .imagem{
+        width:103.4%;
+        height: 25em;
+        margin-left: -1em;
+        margin-top: -3.7em;
+        background-image: url(imagem/imagem786.jpg);
+    }
+
+   
+    .whatsapp>a>img{
+        width: 140px;
+        position: fixed;
+        margin: -118em 0em 0em 33em;
+    }
+
+    aside>footer{
+        width: 102.3%;
+    }
+    .logomarca>a>img{
+        width: 170px;
+    }
+
+    #email{
+        width: 50px;
+    }
+    .instagram{
+        width: 57px;
+        margin-bottom: -0.5em;
+    }
+    .links{
+      
+        position: absolute;
+        margin: -8.5em 0em 0em 20em;
+    
+    }
+
+
+}
+
+@media(Max-width:731px){
+
+    .imagem{
+        width:103.5%;
+        height: 25em;
+        margin-left: -1em;
+        margin-top: -3.7em;
+        background-image: url(imagem/imagem786.jpg);
+    }
+
+    aside>footer{
+        width: 102.5%;
+    }
+
+}
+
+@media(Max-width:667px){
+
+    nav>a{
+        padding: 4% 0% 0% 4%;
+    }
+
+}
+
+
 @media(Max-width:658px){
 
     header{
@@ -54,33 +268,6 @@ aside>footer{
         margin-left: -1em;
         margin-top: -1.2em;
         background-image: url(imagem/imagem640.jpg);
-    }
-
-    #imagemmeio{
-        width: 95%;
-        margin: 0% 0% 0% 2.5%;
-        border-radius: 5%;
-        border-radius: 2px 2px 3px 2px black;
-    
-    }
-    .imagemfim{
-        width: 95%;
-        margin: 0% 0% 0% 2.5%;
-        border-radius: 5%;
-        border-radius: 2px 2px 3px 2px black;
-    
-    }
-
-
-    .equipe{
-        display: none;
-    }
-   
-    .imagens2{
-        display: none;
-    }
-    .imagens{
-        display: none;
     }
 
     .whatsapp>a>img{
