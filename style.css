@@ -31,6 +31,10 @@ aside>footer{
 
 @media(Max-width:915px){
 
+   a{
+        text-decoration: none;
+    }
+
     header{
         width: 103.9%;
         margin: -8% 0% 0% -3%;
@@ -45,7 +49,7 @@ aside>footer{
     }
     
     nav>a{
-        padding: 4% 0% 0% 6.8%;
+        padding: 4% 0% 0% 6.5%;
     }
 
     .imagem{
@@ -145,7 +149,7 @@ aside>footer{
 @media(Max-width:823px){
 
     nav>a{
-        padding: 4% 0% 0% 6%;
+        padding: 4% 0% 0% 5%;
     } 
     .imagem{
         width:103%;
@@ -176,7 +180,7 @@ aside>footer{
     }
     
     nav>a{
-        padding: 4% 0% 0% 5%;
+        padding: 4% 0% 0% 4.5%;
     }
 
     .imagem{
@@ -237,7 +241,7 @@ aside>footer{
 @media(Max-width:667px){
 
     nav>a{
-        padding: 4% 0% 0% 4%;
+        padding: 4% 0% 0% 3.5%;
     }
 
 }
@@ -259,7 +263,7 @@ aside>footer{
     }
     
     nav>a{
-        padding: 4% 0% 0% 3%;
+        padding: 4% 0% 0% 2.5%;
     }
 
     .imagem{
@@ -320,7 +324,7 @@ aside>footer{
     }
     
     nav>a{
-        padding: 4% 0% 0% 3%;
+        padding: 4% 0% 0% 2.5%;
     }
 
     
@@ -402,9 +406,6 @@ aside>footer{
         position: absolute;
         margin: -6em 0em 0em 9.5em;
     
-    }
-    a{
-        text-decoration: none;
     }
    
 
